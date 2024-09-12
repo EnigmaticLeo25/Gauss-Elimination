@@ -1,6 +1,11 @@
 from tkinter import *
+import numpy as np
+
 global n
 m=0
+
+
+
 def on_enter1(event):
     n = int(input1.get())
     label2.grid(column=0,row=1)
@@ -22,6 +27,8 @@ def on_enter2(event):
                 label_x.grid(column=1 + (j * 2), row=i + 2)
             input = Entry(width="10")
             input.grid(column = 2+(j*2),row=i+2)
+
+
 
 
 window = Tk()
